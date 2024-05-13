@@ -1,0 +1,98 @@
+.bot-detail-container{
+    width: 90%;
+    margin: auto;
+}
+
+.bot-detail-long{
+    font-family: "Inter";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    line-height: 1.5;
+
+}
+
+.detail-card-container{
+    display: flex;
+    height: 200px;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+.detail-card-avatar{
+    height: 100%;
+    width: auto;
+    border-radius: 20px;
+}
+
+.detail-card-right{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    height: 100%;
+    overflow: auto;
+}
+
+.detail-card-name{
+    align-self: flex-start;
+    font-family: "Inter";
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.detail-card-author{
+    align-self: flex-start;
+    color: #666666;
+    font-family: "Inter";
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.detail-card-description{
+    font-family: "Inter";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 0px;
+    max-height: 48px;
+    overflow: auto;
+}
+
+.detail-card-btn-group{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:20px;
+}
+
+.detail-card-like, .detail-card-collect {
+    font-family: "Inter";
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: -10px;
+}
+
+.comment-input-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}

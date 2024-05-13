@@ -1,0 +1,115 @@
+.bot-chat-container {
+    padding-bottom: 200px;
+}
+
+.prompt-input-container {
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: white;
+}
+
+.drawer-item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start !important;
+}
+
+.drawer-item-container {
+    margin: 10px
+}
+
+.drawer-divider {
+    height: 20px;
+}
+
+.drawer-item-title {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.drawer-item-content {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.drawer-button {
+    width: 112px;
+    height: 32px;
+    border-radius: 24px !important;
+
+    font-family: Inter !important;
+    font-size: 18px !important;
+    font-weight: 300 !important;
+    line-height: 24px !important;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.chat-history-item {
+    height: 80px;
+}
+
+.brief-card-avatar {
+    height: 70px;
+    width: auto;
+    border-radius: 10px;
+}
+
+.table-create-dialog {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.table-create-edit-label {
+    justify-content: center;
+    font-family: Inter !important;
+    font-size: 18px !important;
+    font-weight: 700 !important;
+    line-height: 24px;
+    letter-spacing: 0em;
+}
+
+.table-create-title {
+    font-family: Abril Fatface !important;
+    font-size: 40px !important;
+    font-weight: 400 !important;
+    line-height: 24px !important;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.chat-hint-container {
+    width: 50%;
+    max-width: 538px;
+    height: 65vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.chat-hint-text {
+    font-family: Abril Fatface !important;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 80px;
+    letter-spacing: 0em;
+    text-align: center;
+    user-select: none;
+}

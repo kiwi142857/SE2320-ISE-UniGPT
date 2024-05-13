@@ -1,0 +1,122 @@
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;
+    margin-left: 8%;
+}
+
+.user-name {
+    font-family: Inter !important;
+    font-size: 28px !important;
+    font-weight: 500 !important;
+    line-height: 24px !important;
+    letter-spacing: 0em !important;
+    text-align: left;
+    color: #333333 !important;
+    border: none !important;
+}
+
+.user-name .MuiOutlinedInput-root {
+    border: none !important;
+}
+
+.user-name .MuiOutlinedInput-root:focus-within {
+    border: 1px solid #333333 !important;
+}
+
+.user-name .MuiOutlinedInput-root .MuiOutlinedInput-notchedOutline {
+    border: none;
+}
+
+.user-name .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+    border: 1px solid #333333;
+}
+
+.user-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    width: 100%;
+    margin-bottom: 10px;
+    margin-left: 12px !important;
+}
+
+.change-button {
+    width: 100%;
+    height: 70%;
+    border-radius: 25px !important;
+    background-color: #333333 !important;
+    color: #ffffff !important;
+    font-family: Inter !important;
+    font-size: 16px !important;
+    text-transform: none !important;
+    font-weight: 300 !important;
+    letter-spacing: 0.05em !important;
+}
+
+.email {
+    font-family: Inter !important;
+    font-size: 18px !important;
+    font-weight: 500 !important;
+    line-height: 24px !important;
+    letter-spacing: 0em !important;
+    text-align: left;
+    color: #666666 !important;
+}
+
+.description {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    padding: 10px !important;
+    padding-left: 0%;
+    width: 200%;
+    text-align: left;
+    margin-top: 2%;
+    border-radius: 20px;
+    overflow: auto;
+    /* 超出部分显示滚动条 */
+}
+
+.description {
+    /* ... 其他样式 ... */
+    overflow: auto;
+}
+
+.description::-webkit-scrollbar {
+    width: 0;
+}
+
+.description:focus::-webkit-scrollbar {
+    width: 10px;
+}
+
+.description::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+.description::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.botlist-tab {
+    margin-top: 50px;
+    font-family: Inter !important;
+    font-size: 20px !important;
+    font-weight: 700 !important;
+    line-height: 24px !important;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #666666;
+    text-transform: none !important;
+}
+
+.botlist-tabs {
+    margin-left: 8%;
+    margin-top: 4%;
+}
