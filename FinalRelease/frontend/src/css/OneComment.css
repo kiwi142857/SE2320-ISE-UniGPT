@@ -1,0 +1,58 @@
+.one-comment-container{
+    width: 100%;
+    min-height: 133px;
+    max-width: 1300px;
+}
+
+.one-comment-name{
+    margin-top: 30px;
+    font-family: "Inter";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.one-comment-header{
+    display: flex;
+    flex-direction: row;
+}
+
+.one-comment-avatar{
+    min-width: 50px;
+    min-height: 50px;
+    border-radius: 50%;
+    margin: 20px 20px 0px 20px;
+}
+
+.one-comment-content{
+    font-family: "Inter" ;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    margin-left: 90px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: flex-start;
+    letter-spacing: 0em;
+    text-align: left;
+    white-space: pre-wrap;
+}
+
+.one-comment-date{
+    font-family: "Inter" ;
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 24px;
+    margin-left: 90px;
+    display: flex;
+    align-items: flex-start;
+    letter-spacing: 0em;
+    text-align: left;
+    white-space: pre-wrap;
+    color: gray;
+}
+
